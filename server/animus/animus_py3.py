@@ -1,5 +1,5 @@
-import animus_client_py3 as animus_py
-import animus_utils as utils
+from . import animus_client_py3 as animus_py
+from . import animus_utils as utils
 import json
 import logging
 

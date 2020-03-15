@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import animus_py3 as animus
-import animus_utils as utils
+from . import animus_py3 as animus
+from . import animus_utils as utils
 import sys
 import logging
 import random

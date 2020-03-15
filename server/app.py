@@ -1,11 +1,21 @@
+import animus
 from flask import Flask, render_template, request, jsonify, make_response
+
+
+animus.functionss.print9()
 # import sys
-# # sys.path.insert(0,'../animus/')
+# sys.path.insert(0,'../animus/')
 # sys.path.append('../animus')
 # import animus.functionss as functionss
 
+# import functionss
+# functionss.print9()
+# from animus import functionss
+
 
 app = Flask(__name__)
+
+# ../animus/app.py
 
 @app.route("/")
 def index():
@@ -29,34 +39,34 @@ def robot_talk():
 
 #############
 
-@app.route("/brainstream", methods = ["POST"])
-def read_bci():
-    try:
-        goooo()
-    except:
-        print("no")
+# @app.route("/brainstream", methods = ["POST"])
+# def read_bci():
+#     try:
+#         goooo()
+#     except:
+#         print("no")
 
-def do_brain_stuff:
-    # await cortex.inspectApi()
-    print("** USER LOGIN **")
-    await cort.get_user_login()
-    print("** GET CORTEX INFO **")
-    await cort.get_cortex_info()
-    print("** HAS ACCESS RIGHT **")
-    await cort.has_access_right()
-    print("** REQUEST ACCESS **")
-    await cort.request_access()
-    print("** AUTHORIZE **")
-    await cort.authorize()
-    print("** GET LICENSE INFO **")
-    await cort.get_license_info()
-    print("** QUERY HEADSETS **")
-    await cortex.query_headsets()
+# def do_brain_stuff():
+#     # await cortex.inspectApi()
+#     print("** USER LOGIN **")
+#     await cort.get_user_login()
+#     print("** GET CORTEX INFO **")
+#     await cort.get_cortex_info()
+#     print("** HAS ACCESS RIGHT **")
+#     await cort.has_access_right()
+#     print("** REQUEST ACCESS **")
+#     await cort.request_access()
+#     print("** AUTHORIZE **")
+#     await cort.authorize()
+#     print("** GET LICENSE INFO **")
+#     await cort.get_license_info()
+#     print("** QUERY HEADSETS **")
+#     await cortex.query_headsets()
 
-def goooo():
-    print("starting")
-    cort = Cortex('credentials.txt')
-    asyncio.run(do_brain_stuff(cort))
-    cort.close()
+# def goooo():
+#     print("starting")
+#     cort = Cortex('credentials.txt')
+#     asyncio.run(do_brain_stuff(cort))
+#     cort.close()
 
-app.run(debug=True)
+app.run(debug=True, use_reloader=False)

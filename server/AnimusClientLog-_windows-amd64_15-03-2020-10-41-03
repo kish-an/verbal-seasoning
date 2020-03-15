@@ -1,0 +1,39 @@
+2020/03/15 10:41:03 connecting to wss://35.210.160.249:8081/sig
+2020/03/15 10:41:03 User logged in
+2020/03/15 10:41:03 {[alsa] 16000 1 true 20}
+2020/03/15 10:41:03 {[4] 16000 1 2400 true}
+2020/03/15 10:41:03 Getting robots on local network
+2020/03/15 10:41:03 Starting local scan
+2020/03/15 10:41:07 Connection received from 192.168.2.100
+2020/03/15 10:41:07 Found 1 robot/s on the local network
+2020/03/15 10:41:07 Getting robots from remote platform
+2020/03/15 10:41:07 Found 0 robot/s on the remote network within chosen geographic range
+2020/03/15 10:41:07 Checking not already connected
+2020/03/15 10:41:07 Checking robot is still available
+2020/03/15 10:41:07 Getting robots on local network
+2020/03/15 10:41:07 Starting local scan
+2020/03/15 10:41:11 Connection received from 192.168.2.100
+2020/03/15 10:41:11 Found 1 robot/s on the local network
+2020/03/15 10:41:11 Changed ID from 0 to 3
+2020/03/15 10:41:11 Setting robot details as: Robot 3 - Softbank Pepper robot called Agnetha at 143.167.254.175 from Sheffield,GB
+2020/03/15 10:41:11 Setting up Local Supervisor
+2020/03/15 10:41:11 Connecting to 192.168.2.100 on port 1567
+2020/03/15 10:41:11 Local Supervisor setup complete
+2020/03/15 10:41:11 Setting up Local Modality Manager
+2020/03/15 10:41:11 Setting up Local channel manager in user mode
+2020/03/15 10:41:11 Local Modality Manager setup complete
+2020/03/15 10:41:11 Successfully connected to Agnetha
+2020/03/15 10:41:11 Opening emotion modality for robot 3
+2020/03/15 10:41:12 user Opening emotion modality channel
+2020/03/15 10:41:12 Connecting to 192.168.2.100 on port 38819
+2020/03/15 10:41:12 emotion modality opened successfully
+2020/03/15 10:41:12 emotion modality set loop started
+2020/03/15 10:41:12 emotion modality get loop started
+2020/03/15 10:41:15 Disconnecting robot 3
+2020/03/15 10:41:15 Closing Local Modality Manager
+2020/03/15 10:41:15 Closing emotion modality
+2020/03/15 10:41:15 emotion modality set loop finished
+2020/03/15 10:41:15 Closing channel on port 7554
+2020/03/15 10:41:15 Read error: read tcp 192.168.2.151:7554->192.168.2.100:38819: use of closed network connection
+2020/03/15 10:41:15 emotion modality get loop finished
+2020/03/15 10:41:15 Closing channel on port 7553

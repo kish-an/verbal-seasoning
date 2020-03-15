@@ -1,0 +1,39 @@
+2020/03/15 11:03:45 connecting to wss://35.210.160.249:8081/sig
+2020/03/15 11:03:46 User logged in
+2020/03/15 11:03:46 {[alsa] 16000 1 true 20}
+2020/03/15 11:03:46 {[4] 16000 1 2400 true}
+2020/03/15 11:03:46 Getting robots on local network
+2020/03/15 11:03:46 Starting local scan
+2020/03/15 11:03:50 Connection received from 192.168.2.100
+2020/03/15 11:03:50 Found 1 robot/s on the local network
+2020/03/15 11:03:50 Getting robots from remote platform
+2020/03/15 11:03:50 Found 0 robot/s on the remote network within chosen geographic range
+2020/03/15 11:03:50 Checking not already connected
+2020/03/15 11:03:50 Checking robot is still available
+2020/03/15 11:03:50 Getting robots on local network
+2020/03/15 11:03:50 Starting local scan
+2020/03/15 11:03:54 Connection received from 192.168.2.100
+2020/03/15 11:03:54 Found 1 robot/s on the local network
+2020/03/15 11:03:54 Changed ID from 0 to 3
+2020/03/15 11:03:54 Setting robot details as: Robot 3 - Softbank Pepper robot called Agnetha at 143.167.254.174 from Sheffield,GB
+2020/03/15 11:03:54 Setting up Local Supervisor
+2020/03/15 11:03:54 Connecting to 192.168.2.100 on port 1567
+2020/03/15 11:03:54 Local Supervisor setup complete
+2020/03/15 11:03:54 Setting up Local Modality Manager
+2020/03/15 11:03:54 Setting up Local channel manager in user mode
+2020/03/15 11:03:54 Local Modality Manager setup complete
+2020/03/15 11:03:54 Successfully connected to Agnetha
+2020/03/15 11:03:54 Opening speech modality for robot 3
+2020/03/15 11:03:55 user Opening speech modality channel
+2020/03/15 11:03:55 Connecting to 192.168.2.100 on port 53448
+2020/03/15 11:03:55 speech modality opened successfully
+2020/03/15 11:03:55 speech modality set loop started
+2020/03/15 11:03:55 speech modality get loop started
+2020/03/15 11:04:07 Disconnecting robot 3
+2020/03/15 11:04:07 Closing Local Modality Manager
+2020/03/15 11:04:07 Closing speech modality
+2020/03/15 11:04:07 Closing channel on port 8429
+2020/03/15 11:04:07 speech modality set loop finished
+2020/03/15 11:04:07 Read error: read tcp 192.168.2.151:8429->192.168.2.100:53448: use of closed network connection
+2020/03/15 11:04:07 speech modality get loop finished
+2020/03/15 11:04:07 Closing channel on port 8428
