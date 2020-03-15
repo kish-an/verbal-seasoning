@@ -20,12 +20,13 @@ async def do_stuff(cortex):
     await cortex.query_headsets()
     if len(cortex.headsets) > 0:
         print("** CREATE SESSION **")
-        await cortex.create_session(activate=True,
+        # activate is False since we do not want to use high performance features (available on paid license)
+        await cortex.create_session(activate=False,
                                     headset_id=cortex.headsets[0])
-        print("** CREATE RECORD **")
-        await cortex.create_record(title="test record 1")
-        print("** SUBSCRIBE POW & MET **")
-        await cortex.subscribe(['pow', 'met'])
+        #print("** CREATE RECORD **")
+        #await cortex.create_record(title="test record 1")
+        print("** SUBSCRIBE FACIAL EXPRESSIONS AND MOTION SENSOR DATA **")
+        await cortex.subscribe(['com', 'mot'])
         while cortex.packet_count < 10:
             await cortex.get_data()
         await cortex.inject_marker(label='halfway', value=1,
@@ -37,11 +38,10 @@ async def do_stuff(cortex):
 
 def test():
     print("hello world")
-    cortex = Cortex('./credentials.txt')
+    cortex = Cortex('credentials.txt')
     asyncio.run(do_stuff(cortex))
     cortex.close()
 
-print("hello? world?")
-test()
+
 if __name__ == '__main__':
     test()
