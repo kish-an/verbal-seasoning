@@ -144,6 +144,7 @@ if not connected:
 #         msg = input("Robot say: ")
 #         myrobot.set_modality("speech", "Hello")
 #         myrobot.set_modality("emotion", random.choice(utils.emotions_list))
+#         log.info("hello world")
 # except KeyboardInterrupt:
 #     log.info("Closing down")
 # except SystemExit:
