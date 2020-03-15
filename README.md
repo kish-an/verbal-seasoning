@@ -10,3 +10,5 @@ cd server
 ```
 python app.py
 ```
+
+Note that you will need python3 :)
