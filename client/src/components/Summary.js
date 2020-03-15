@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Summary = () => {
+const Summary = ({ loading }) => {
+    if (loading) {
+        return null;
+    }
+
     return (
         <div className='summary'>
             <h1>What we're all about</h1>

@@ -8,6 +8,10 @@ body {
   background: #e5e5e5;
 }
 
+h1 {
+    color: #a29bfe;
+}
+
 .navbar {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     padding: 1rem;
@@ -34,7 +38,8 @@ body {
     height: 50px;
     width: 50px;
 }
-.button{
+
+/* .button{
     color: #008CBA;
     border: 2px solid #008CBA;
     background-color: transparent;
@@ -43,7 +48,8 @@ body {
 .button:hover{
     background-color: #85BDEC ;
     border: 2px solid #008CBA;
-}
+} 
+
 #input{
     border-style: dotted;
     border-radius: 5px;
@@ -61,7 +67,7 @@ h1{
 
 .dev {
     border-radius: 1px solid black;
-}
+} */
 
 .button {
     display:inline-block;
@@ -209,9 +215,9 @@ h1{
 
 .form__label {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   margin-left: 2rem;
-  margin-top: 0.7rem;
+  margin-top: 0.2rem;
   display: block;
   transition: all 0.3s;
   transform: translateY(0rem);

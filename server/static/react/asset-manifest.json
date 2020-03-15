@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.ea3755dd.chunk.css",
-    "main.js": "/static/react/js/main.12f921dc.chunk.js",
-    "main.js.map": "/static/react/js/main.12f921dc.chunk.js.map",
+    "main.css": "/static/react/css/main.3d82e3a7.chunk.css",
+    "main.js": "/static/react/js/main.88bebb6e.chunk.js",
+    "main.js.map": "/static/react/js/main.88bebb6e.chunk.js.map",
     "runtime-main.js": "/static/react/js/runtime-main.2750f46f.js",
     "runtime-main.js.map": "/static/react/js/runtime-main.2750f46f.js.map",
     "css/2.de424728.chunk.css": "/static/react/css/2.de424728.chunk.css",
@@ -10,19 +10,19 @@
     "js/2.05e364bc.chunk.js.map": "/static/react/js/2.05e364bc.chunk.js.map",
     "../../templates/index.html": "/static/react/../../templates/index.html",
     "css/2.de424728.chunk.css.map": "/static/react/css/2.de424728.chunk.css.map",
-    "css/main.ea3755dd.chunk.css.map": "/static/react/css/main.ea3755dd.chunk.css.map",
+    "css/main.3d82e3a7.chunk.css.map": "/static/react/css/main.3d82e3a7.chunk.css.map",
     "js/2.05e364bc.chunk.js.LICENSE.txt": "/static/react/js/2.05e364bc.chunk.js.LICENSE.txt",
     "media/gear-big.png": "/static/react/media/gear-big.03a67fff.png",
     "media/gear-small.png": "/static/react/media/gear-small.aa906ba5.png",
     "media/salt-n-peppa.png": "/static/react/media/salt-n-peppa.5acb6e7d.png",
-    "precache-manifest.3f3acc49e0021c2ba272f1e84b1e670d.js": "/static/react/precache-manifest.3f3acc49e0021c2ba272f1e84b1e670d.js",
+    "precache-manifest.e636f77999382de090838fd0f70142ab.js": "/static/react/precache-manifest.e636f77999382de090838fd0f70142ab.js",
     "service-worker.js": "/static/react/service-worker.js"
   },
   "entrypoints": [
     "js/runtime-main.2750f46f.js",
     "css/2.de424728.chunk.css",
     "js/2.05e364bc.chunk.js",
-    "css/main.ea3755dd.chunk.css",
-    "js/main.12f921dc.chunk.js"
+    "css/main.3d82e3a7.chunk.css",
+    "js/main.88bebb6e.chunk.js"
   ]
 }

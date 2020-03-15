@@ -21,12 +21,18 @@ function App() {
             <Container fluid>
                 <Row>
                     <Col>
-                        <Stream setStreamStarted={setStreamStarted} />
+                        <Stream
+                            streamStarted={streamStarted} 
+                            setStreamStarted={setStreamStarted} 
+                            setLoading={setLoading} 
+                        />
                     </Col>
                     <Col>
-                        {!streamStarted
+                        {!streamStarted && <Summary loading={loading} />}
+                        <Dashboard loading={loading} streamStarted={streamStarted} />
+                        {/* {!streamStarted
                             ? <Summary />
-                            : <Dashboard />}
+                            : <Dashboard loading={loading} />} */}
                     </Col>
                 </Row>
             </Container>
