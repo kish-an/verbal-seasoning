@@ -10,7 +10,7 @@ def index():
 def robot_talk():
     try:
         req = request.get_json()
-
+        
         print('------------------------------------')
         print(req)
         print('------------------------------------')
