@@ -4,6 +4,9 @@
 </div>
 
 ## Deployment 
-
+```
 cd server
+```
+```
 python app.py
+```
