@@ -1,0 +1,4 @@
+# websocket is different from websockets, WHY
+websockets
+flake8
+websocket-client
