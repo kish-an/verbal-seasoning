@@ -1,4 +1,8 @@
 from flask import Flask, render_template, request, jsonify, make_response
+# import sys
+# # sys.path.insert(0,'../animus/')
+# sys.path.append('../animus')
+# import animus.functionss as functionss
 
 app = Flask(__name__)
 
@@ -13,6 +17,7 @@ def robot_talk():
         
         print('------------------------------------')
         print(req)
+        # functionss.print9()
         print('------------------------------------')
 
         res = make_response(jsonify({"message": "OK"}), 200)

@@ -21,8 +21,9 @@ const Talk = () => {
     }
 
     return (
-        <div>
+        <div className="input-field">
             <p>{content}</p>
+            <label for="input">What do you want pepper to say?</label>
             <input id='input' type='text' onChange={handleChange} onKeyDown={handleSubmit} />
         </div>
     )

@@ -33,10 +33,29 @@ body {
     height: 50px;
     width: 50px;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
+.button{
+    color: #008CBA;
+    border: 2px solid #008CBA;
+    background-color: transparent;
+    border-radius: 13px;
+}
+.button:hover{
+    background-color: #85BDEC ;
+    border: 2px solid #008CBA;
+}
+#input{
+    border-style: dotted;
+    border-radius: 5px;
+    padding:10px;
+}
+label{
+    padding-right: 20px;
+}
+.input-field{
+    padding:20px 10px;
+}
+h1{
+    color: #72A7FA ;
 }
 
 .dev {
@@ -45,4 +64,9 @@ body {
 
 .button {
     color: black;
+}
+.pepper-logo{
+    height: 80px;
+    width:auto;
+    padding-right: 20px;
 }

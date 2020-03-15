@@ -5,7 +5,7 @@ const BCI = () => {
     return (
         <div className='dev'>
             <h1>BCI</h1>
-            <div>
+            <div className="input-field">
                 <Button variant="primary" size="lg" className='button'>
                     Large button
                 </Button>
