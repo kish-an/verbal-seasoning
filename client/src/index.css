@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #e5e5e5;
 }
 
 .navbar {
@@ -63,7 +64,179 @@ h1{
 }
 
 .button {
-    color: black;
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.8em 0.8em 0;
+    border-radius:3px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#8e44ad;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+
+.button-list {
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.inactive {
+    filter: contrast(60%);
+}
+
+.sad {
+    background: #3498db;
+}
+
+.angry {
+    background: #e74c3c;
+}
+
+.fear {
+    background: #2ecc71;
+}
+
+.happy {
+    background: #f9ca24;
+}
+
+.suprised {
+    background: #e67e22;
+}
+
+.neutral {
+    background: #bdc3c7;
+}
+
+.robot {
+    margin-left: 6rem;
+    position: fixed;
+    bottom: 0;
+    height: 620px;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: -1;
+}
+
+.robot:hover {
+    transform: scale(1.03);
+}
+
+.gears {
+   width: 350px;
+   margin: 100px auto;
+   display: block;
+   text-align: center;
+   font-family: Arial;
+}
+
+.gears h3 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.gears .big {
+   width: 100px;
+   height: 100px;
+   -webkit-transform-origin: center;
+   -moz-transform-origin: center;
+   -o-transform-origin: center;
+   transform-origin: center;
+   -webkit-animation: rotate 1.5s linear infinite;
+   -moz-animation: rotate 1.5s linear infinite;
+   -o-animation: rotate 1.5s linear infinite;
+   animation: rotate 1.5s linear infinite
+}
+
+.gears .small {
+   width: 70px;
+   height: 70px;
+   margin-left: -6px;
+   -webkit-transform-origin: center;
+   -moz-transform-origin: center;
+   -o-transform-origin: center;
+   transform-origin: center;
+   -webkit-animation: reverseRotate 1.5s linear infinite;
+   -moz-animation: reverseRotate 1.5s linear infinite;
+   -o-animation: reverseRotate 1.5s linear infinite;
+   animation: reverseRotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+   0% {
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+   }
+   100% {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+}
+
+@keyframes reverseRotate {
+   0% {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+   100% {
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+   }
+}
+
+.summary {
+    margin-top: 5rem;
+}
+
+.summary p {
+    margin-top: auto;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.form__label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
 }
 .pepper-logo{
     height: 80px;
