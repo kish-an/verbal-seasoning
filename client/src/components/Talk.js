@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Test = () => {
+const Talk = () => {
     const [content, setContent] = useState('');
 
     const handleChange = e => setContent(e.target.value);
@@ -28,5 +28,5 @@ const Test = () => {
     )
 }
 
-export default Test;
+export default Talk;
 

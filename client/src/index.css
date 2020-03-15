@@ -42,3 +42,7 @@ body {
 .dev {
     border-radius: 1px solid black;
 }
+
+.button {
+    color: black;
+}
