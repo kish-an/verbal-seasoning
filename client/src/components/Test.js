@@ -9,7 +9,7 @@ const Test = () => {
         if (e.key === 'Enter') {
              fetch('/input', {
                  method: "POST",
-                 body: content,
+                 body: JSON.stringify(content),
                  headers: new Headers({
                      "content-type": "application/json"
                  }),
