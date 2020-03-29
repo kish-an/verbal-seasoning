@@ -57,7 +57,8 @@ def speechSetUp(myrobot,log):
   if not open_success:
       log.error("Could not open robot speech modality")
       sys.exit(-1)
-
+  return (myrobot,log)
+  
 def speak(myrobot,log,actual_speech):
   try:
     myrobot.set_modality("speech", actual_speech)
@@ -71,6 +72,7 @@ def eyeColourSetup(myrobot,log):
   if not open_success:
       log.error("Could not open robot emotion modality")
       sys.exit(-1)
+  return (myrobot,log)
 # ['angry', 'fear', 'sad', 'happy', 'surprised', 'neutral']
 def changeEyeColour(myrobot,log,eye_colour):
   try:

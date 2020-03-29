@@ -1,0 +1,10 @@
+2020/03/15 12:52:34 connecting to wss://35.210.160.249:8081/sig
+2020/03/15 12:52:34 User logged in
+2020/03/15 12:52:34 {[alsa] 16000 1 true 20}
+2020/03/15 12:52:34 {[4] 16000 1 2400 true}
+2020/03/15 12:52:34 Getting robots on local network
+2020/03/15 12:52:34 Starting local scan
+2020/03/15 12:52:38 Connection received from 192.168.2.100
+2020/03/15 12:52:38 Found 1 robot/s on the local network
+2020/03/15 12:52:38 Getting robots from remote platform
+2020/03/15 12:52:38 Found 0 robot/s on the remote network within chosen geographic range

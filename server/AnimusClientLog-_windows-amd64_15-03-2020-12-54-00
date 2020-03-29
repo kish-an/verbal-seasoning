@@ -1,0 +1,37 @@
+2020/03/15 12:54:00 connecting to wss://35.210.160.249:8081/sig
+2020/03/15 12:54:00 User logged in
+2020/03/15 12:54:00 {[alsa] 16000 1 true 20}
+2020/03/15 12:54:00 {[4] 16000 1 2400 true}
+2020/03/15 12:54:00 Getting robots on local network
+2020/03/15 12:54:00 Starting local scan
+2020/03/15 12:54:04 Connection received from 192.168.2.100
+2020/03/15 12:54:04 Found 1 robot/s on the local network
+2020/03/15 12:54:04 Getting robots from remote platform
+2020/03/15 12:54:04 Found 0 robot/s on the remote network within chosen geographic range
+2020/03/15 12:54:04 Checking not already connected
+2020/03/15 12:54:04 Checking robot is still available
+2020/03/15 12:54:04 Getting robots on local network
+2020/03/15 12:54:04 Starting local scan
+2020/03/15 12:54:08 Connection received from 192.168.2.100
+2020/03/15 12:54:08 Found 1 robot/s on the local network
+2020/03/15 12:54:08 Changed ID from 0 to 3
+2020/03/15 12:54:08 Setting robot details as: Robot 3 - Softbank Pepper robot called Agnetha at 143.167.254.174 from Sheffield,GB
+2020/03/15 12:54:08 Setting up Local Supervisor
+2020/03/15 12:54:08 Connecting to 192.168.2.100 on port 1567
+2020/03/15 12:54:08 Local Supervisor setup complete
+2020/03/15 12:54:08 Setting up Local Modality Manager
+2020/03/15 12:54:08 Setting up Local channel manager in user mode
+2020/03/15 12:54:08 Local Modality Manager setup complete
+2020/03/15 12:54:08 Successfully connected to Agnetha
+2020/03/15 12:54:08 Opening speech modality for robot 3
+2020/03/15 12:54:10 user Opening speech modality channel
+2020/03/15 12:54:10 Connecting to 192.168.2.100 on port 53595
+2020/03/15 12:54:10 speech modality opened successfully
+2020/03/15 12:54:10 speech modality set loop started
+2020/03/15 12:54:10 speech modality get loop started
+2020/03/15 12:54:10 Opening emotion modality for robot 3
+2020/03/15 12:54:11 user Opening emotion modality channel
+2020/03/15 12:54:11 Connecting to 192.168.2.100 on port 52620
+2020/03/15 12:54:11 emotion modality opened successfully
+2020/03/15 12:54:11 emotion modality set loop started
+2020/03/15 12:54:11 emotion modality get loop started
